@@ -1,0 +1,17 @@
+h3 {
+  text-transform: uppercase;
+  margin: 1.1em;
+}
+
+div.block {
+  background-color: rgb(223, 223, 223);
+  padding: 1.2em;
+}
+
+p.utm {
+  margin: 0;
+}
+
+button {
+  margin: 0.3em 0;
+}
