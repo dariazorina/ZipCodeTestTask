@@ -85,7 +85,7 @@ function getUtm() {
 
     const params = new URLSearchParams(utmQuery);
     utmParams.forEach(param => {
-        var pValue = params.get(param);
+        let pValue = params.get(param);
         // console.log("param, pValue", param, pValue);
 
         if (valueExists(pValue)) {
